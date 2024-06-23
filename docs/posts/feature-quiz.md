@@ -17,6 +17,6 @@ Web app to test recognition of fundamental Python patterns. Written in Python co
 :fontawesome-brands-python:
 :fontawesome-solid-graduation-cap:
 
-[:octicons-arrow-right-24: See project](https://portfolio.travisormsby.com/feature_quiz){:target="_blank"}
+[:octicons-arrow-right-24: See project](https://projects.travisormsby.com/feature_quiz){:target="_blank"}
 
 [:octicons-arrow-right-24: Explore repository](https://github.com/travisormsby/feature_quiz){:target="_blank"}

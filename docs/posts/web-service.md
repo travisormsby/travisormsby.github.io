@@ -13,4 +13,4 @@ Workshop taught for the Minnesota GIS/LIS Consortium demystifying the way GIS se
 :simple-arcgis:
 :fontawesome-solid-graduation-cap:
 
-[:octicons-arrow-right-24: See project](https://portfolio.travisormsby.com/web-service){:target="_blank"}
+[:octicons-arrow-right-24: See project](https://projects.travisormsby.com/web-service){:target="_blank"}

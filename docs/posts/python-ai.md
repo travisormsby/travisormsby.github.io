@@ -13,4 +13,4 @@ Workshop taught for the Minnesota GIS/LIS Consortium outlining how to make effec
 :fontawesome-brands-python:
 :fontawesome-solid-graduation-cap:
 
-[:octicons-arrow-right-24: See project](https://portfolio.travisormsby.com/python-ai-assistants){:target="_blank"}
+[:octicons-arrow-right-24: See project](https://projects.travisormsby.com/python-ai-assistants){:target="_blank"}
