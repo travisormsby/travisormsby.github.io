@@ -2,7 +2,7 @@
 draft: false 
 date: 2020-01-01
 categories:
-  - ArcGIS
+  - ArcGIS Online
   - Cartography
   - CSS
   - Data engineering

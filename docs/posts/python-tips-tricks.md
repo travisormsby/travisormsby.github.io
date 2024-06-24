@@ -2,7 +2,8 @@
 draft: false 
 date: 2024-01-01
 categories:
-  - ArcGIS
+  - ArcGIS Pro
+  - ArcGIS Online
   - Data analysis
   - Data engineering
   - Python

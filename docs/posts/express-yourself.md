@@ -2,7 +2,8 @@
 draft: false 
 date: 2022-01-01
 categories:
-  - ArcGIS
+  - ArcGIS Arcade
+  - ArcGIS Pro
   - Cartography
   - Teaching
 ---

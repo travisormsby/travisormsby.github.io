@@ -2,7 +2,7 @@
 draft: false 
 date: 2022-01-01
 categories:
-  - ArcGIS
+  - ArcGIS Pro
   - Data analysis
   - Teaching
 ---
