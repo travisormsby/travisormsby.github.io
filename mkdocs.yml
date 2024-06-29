@@ -22,6 +22,7 @@ plugins:
   - blog:
       blog_dir: .
       post_readtime: false
+      archive: false
       archive_name: Projects by year
       categories_name: Projects by topic
       post_excerpt_max_categories: 0
