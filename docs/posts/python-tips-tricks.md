@@ -6,6 +6,7 @@ categories:
   - ArcGIS Online
   - Data analysis
   - Data engineering
+  - Jupyter Notebooks
   - Python
   - Teaching
 ---
@@ -18,6 +19,7 @@ Live training seminar deliverred to over 4,400 people offering 48 tips and trick
 :simple-arcgis:
 :material-graph:
 :material-database:
+:simple-jupyter:
 :fontawesome-brands-python:
 :fontawesome-solid-graduation-cap:
 
