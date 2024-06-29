@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2022-01-01
+date: 2022-02-01
 categories:
   - Bash
   - Docker

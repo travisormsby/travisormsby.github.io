@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2023-01-01
+date: 2023-10-01
 categories:
   - ArcGIS Enterprise
   - ArcGIS Online
