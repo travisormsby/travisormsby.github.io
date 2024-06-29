@@ -6,6 +6,8 @@ categories:
   - Cartography
   - HTML
   - JavaScript
+  - Jupyter Notebooks
+  - Python
 ---
 
 
@@ -17,6 +19,8 @@ Explore Minnesota Census data as an interactive coloring book. U-Spatial Mapping
 :fontawesome-regular-map:
 :fontawesome-brands-html5:
 :fontawesome-brands-js:
+:simple-jupyter:
+:fontawesome-brands-python:
 
 [:octicons-arrow-right-24: See project](https://projects.travisormsby.com/map-coloring-book){:target="_blank"}
 
