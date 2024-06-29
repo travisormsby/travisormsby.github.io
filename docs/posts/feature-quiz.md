@@ -12,8 +12,8 @@ categories:
 
 Web app to test recognition of fundamental Python patterns. Written in Python compiled to WASM running directly in the browser. No backend required.
 
-:fontawesome-brands-html5:
 :fontawesome-brands-css3:
+:fontawesome-brands-html5:
 :fontawesome-brands-python:
 :fontawesome-solid-graduation-cap:
 
