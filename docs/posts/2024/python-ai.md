@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2024-06-01
+date: 2024-06-16
 categories:
   - GitHub Actions
   - Python
@@ -18,6 +18,8 @@ Workshop taught for the Minnesota GIS/LIS Consortium outlining how to make effec
 :simple-yaml:
 
 [:octicons-arrow-right-24: See project](https://projects.travisormsby.com/python-ai-assistants){:target="_blank"}
+
+[:octicons-arrow-right-24: Explore repository](https://github.com/travisormsby/python-ai-assistants){:target="_blank"}
 
 <!-- more -->
 
