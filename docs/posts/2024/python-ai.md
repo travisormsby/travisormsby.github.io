@@ -2,16 +2,20 @@
 draft: false 
 date: 2024-06-01
 categories:
+  - GitHub Actions
   - Python
   - Teaching
+  - YAML
 ---
 
 # I'm sorry, Dave. I'm afraid I can't do that
 
 Workshop taught for the Minnesota GIS/LIS Consortium outlining how to make effective use of generative AI to write Python code.
 
+:fontawesome-brands-github: 
 :fontawesome-brands-python:
 :fontawesome-solid-graduation-cap:
+:simple-yaml:
 
 [:octicons-arrow-right-24: See project](https://projects.travisormsby.com/python-ai-assistants){:target="_blank"}
 
@@ -22,3 +26,5 @@ State-of-the-art LLM interfaces like ChatGPT or GitHub Copilot are both incredib
 Even so, generative AI tools are coming. They will likely be integrated into a variety of products. I don't think LLMs are fundamentally a scam the way that cryptocurrency is. There are genuine reasons to think generative AI can add value to human work, like the fact that the models can remember much more than a single person does. 
 
 I'm concerned about people using these models when they don't really know how. Those people are going to make mistakes, with potentially disaterous consequences, and there will be a huge temptation to try to avoid accountability by pinning the mistake on the AI model. This workshop is me trying to stop that from happening.
+
+The site itself is created using mkdocs Material theme, with pages written in markdown and site configuration done in YAML. A GitHub Action publishes the site to a custom domain hosted by CloudFlare.
