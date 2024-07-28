@@ -7,7 +7,7 @@ categories:
 
 # Docker test container
 
-Forked from a dead open source project to maintain a viable Docker test image capable of reporting its own container ID in a web app. This is more useful than the default Docker hello-world image for demonstrating the effect of multiple containers created from the same image.
+Docker image capable of reporting its own container ID in a web app. This is more useful than the default Docker hello-world image for demonstrating the effect of multiple containers created from the same image.
 
 :fontawesome-brands-docker:
 

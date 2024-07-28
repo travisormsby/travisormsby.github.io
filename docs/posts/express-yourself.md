@@ -21,4 +21,4 @@ Video series describing fundamental workflows with ArcGIS Arcade to configure po
 
 <!-- more -->
 
-You can do some pretty complex stuff with Arcade, but I still think the best use cases are relatively small expressions for customizing map elements like the ones in these videos. 
+It's been interesting to see Arcade expand into so many different areas, especially for data integrity with Attribute Rules in the geodatabase. And you can do relatively complex work that remains performant execution-wise. But I still think the best use cases for Arcade are relatively small expressions for customizing map elements like the expressions in these videos. 

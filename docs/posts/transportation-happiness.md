@@ -35,4 +35,12 @@ Custom web app showing differences in people's emotional states for different ro
 
 This isn't the most complex project I've worked on, but it is the only project where I had to handle so much complexity on my own. It took several different technologies to engineer the raw data, and several more to create a custom web application visualizing that data. 
 
+* Export raw GPS from a PostgreSQL server
+* Set up a Docker instance of the Open Source Routing Machine (OSRM)
+* Use the OSRM to match raw GPS tracks to the road network
+* Write Python code in a Jupyter Notebook for stringing the tracks into a single feature class 
+* Create multiple symbologies for each map-matched track based on a variety of attributes
+* Publish the tracks to ArcGIS Online
+* Create a custom HTML/CSS/JavaScript web app that allows users to filter and visualize attriubtes
+
 Sometimes when you work for a small organization, you need to wear several hats. I this case I was everything from analyst to cartographer to developer. There are serious tradeoffs to that approach however, because a single person is unlikely to be an expert across all of those domains. Time that I devote to becoming an expert in front-end development to improve the web app is time that I can't spend improving my ability to understand the underlying routing model to improve the map-matching. 

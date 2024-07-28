@@ -25,4 +25,4 @@ One of the difficult questions I had to think through when creating these notebo
 
 In some respects, the more I know about Python, the less effective I get at teaching the fundamentals. It's easy to forget how hard it was to learn those concepts in the beginning. The curse of knowledge is real, and if you're not careful you can lose empathy for beginners. 
 
-But you still have to know something. These notebooks represent the minimum necessary knowledge for teaching Python in ArcGIS. 
+But you still have to know something. These notebooks represent what I think is the minimum necessary knowledge for teaching Python in ArcGIS. 
