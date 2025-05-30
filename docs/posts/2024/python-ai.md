@@ -8,7 +8,7 @@ categories:
   - YAML
 ---
 
-# I'm sorry, Dave. I'm afraid I can't do that
+# Use AI Models To Write Python Code, Even Though They Are Bad At It 
 
 Workshop taught for the Minnesota GIS/LIS Consortium outlining how to make effective use of generative AI to write Python code.
 
