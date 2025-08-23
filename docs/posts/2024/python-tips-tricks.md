@@ -12,7 +12,7 @@ categories:
   - Teaching
 ---
 
-# Python 101 for ArcGIS
+# Python Tips and Tricks
 
 
 Live training seminar delivered to over 4,400 people offering 48 tips and tricks from beginner to advanced to effectively use Python within ArcGIS Pro, ArcGIS Online, and ArcGIS Enterprise.
