@@ -30,7 +30,7 @@ Computer scientists have a notation called "Big O" to describe how processes get
 - O(log n) processes scale with the log of the input size. Querying a sorted table is O(log n).
 - O(n) processes scale linearly with the size of the input. Joining tables on indexed fields is O(n).
 - O(n log n) processes scale with the input size multiplied by the log of the input size. Joining tables on non-indexed fields is O(n log n)
-- O(n<sup>2</sup>) processes scale quadradically. Nested loops are O(n<sup>2</sup>).
+- O(n<sup>2</sup>) processes scale quadratically. Nested loops are O(n<sup>2</sup>).
 - O(2<sup>n</sup>) processes scale exponentially. Exact solutions for optimal gerrymandering are O(2<sup>n</sup>).
 - O(n!) processes scale factorially. Exact solutions to network routing problems are O(n!).
 
@@ -78,6 +78,6 @@ Effectively deploying and maintaining those software solutions is going to requi
 - Architectural patterns like high-availability and workload separation
 - Considerations for cloud vs on-premises computing
 
-You will also need to know how you can mitigate the fact that a services-oriented archictecture will generally be much slower than working with local data. You will need to make database queries faster by reducing the amount of data to be queried and indexing commonly-queried fields. You need to know how to implement various caching strategies to serve up data without having to query the database at all.
+You will also need to know how you can mitigate the fact that a services-oriented architecture will generally be much slower than working with local data. You will need to make database queries faster by reducing the amount of data to be queried and indexing commonly-queried fields. You need to know how to implement various caching strategies to serve up data without having to query the database at all.
 
-Lastly, you will need to script automation solutions to reduce the amount of manual work you need to do. As you are growing your code-writing skills, it's important to keep in mind that in enterprise GIS you are much more likely to need a script to move 10,000 files from one place to another than you are to need a script to build a convolutional neural network. In terms of usefull languages, Python is a great choice because it is well integrated with many different types of systems. But you will probably also need to learn at least some PowerShell if you're working in Windows and Bash if you're working in Linux. The command line is a very powerful tool if you can become comfortable using it. 
+Lastly, you will need to script automation solutions to reduce the amount of manual work you need to do. As you are growing your code-writing skills, it's important to keep in mind that in enterprise GIS you are much more likely to need a script to move 10,000 files from one place to another than you are to need a script to build a convolutional neural network. In terms of useful languages, Python is a great choice because it is well integrated with many different types of systems. But you will probably also need to learn at least some PowerShell if you're working in Windows and Bash if you're working in Linux. The command line is a very powerful tool if you can become comfortable using it. 
