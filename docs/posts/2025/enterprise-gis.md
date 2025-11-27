@@ -87,3 +87,14 @@ Effectively deploying and maintaining software solutions for web GIS services is
 You will also need to know how you can mitigate the fact that a services-oriented architecture will generally be much slower than working with local data. You will need to make database queries faster by reducing the amount of data to be queried and indexing commonly-queried fields. You need to know how to implement various caching strategies to serve up data without having to query the database at all.
 
 Lastly, you will need to create automation solutions to reduce your workload. As you are growing your code-writing skills, it's important to keep in mind that in enterprise GIS you are much more likely to write code to move 10,000 files from one place to another than you are to write code to build a convolutional neural network. In terms of useful languages, Python is a great choice because it is well integrated with many different types of systems. But you will probably also need to learn at least some PowerShell if you're working in Windows and Bash if you're working in Linux. These are the languages that unlock the power of the command line, which you should develop some degree of comfort with.
+
+## Conclusion
+
+The bigger scale of enterprise GIS doesn't just mean more, it means different. You can't do enterprise GIS by just having everybody do the same things you do when you're working alone at the desktop. Everything else follows from that:
+
+- Choose algorithms that scale well
+- Understand your organization's bureaucracy and hierarchy
+- Disagree productively
+- Make security a priority
+- Provide data as web services
+- Develop technical skills beyond traditional GIS methods
