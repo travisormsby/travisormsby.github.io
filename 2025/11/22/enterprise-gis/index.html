@@ -1,0 +1,1121 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../../08/23/getting-to-know-arcgis-enterprise/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Enterprise GIS - Travis Ormsby Projects</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.618322db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#enterprise-gis" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../.." title="Travis Ormsby Projects" class="md-header__button md-logo" aria-label="Travis Ormsby Projects" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Travis Ormsby Projects
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Enterprise GIS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../.." title="Travis Ormsby Projects" class="md-nav__button md-logo" aria-label="Travis Ormsby Projects" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Travis Ormsby Projects
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      <a href="../../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    All projects
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects by topic
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Projects by topic
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/arcgis-arcade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ArcGIS Arcade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/arcgis-enterprise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ArcGIS Enterprise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/arcgis-online/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ArcGIS Online
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/arcgis-pro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ArcGIS Pro
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/bash/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bash
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/css/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    CSS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/cartography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cartography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/data-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/data-engineering/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data engineering
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/docker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Docker
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/github-actions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GitHub Actions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/html/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HTML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/javascript/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JavaScript
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/jupyter-notebooks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jupyter Notebooks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/kubernetes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kubernetes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/teaching/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Teaching
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../category/yaml/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    YAML
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#some-solutions-stop-working" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Some solutions stop working
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#people-dont-scale" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        People don't scale
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#agreement-is-the-bottleneck" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Agreement is the bottleneck
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-matters-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security matters more
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#most-data-should-be-shared-as-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Most data should be shared as services
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#you-need-a-broader-set-of-technical-skills" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        You need a broader set of technical skills
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conclusion
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../.." class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2025-11-22 00:00:00+00:00" class="md-ellipsis">2025</time>
+                      </div>
+                    </li>
+                    
+                    
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg>
+                          <span class="md-ellipsis">
+                            in
+                            
+                              <a href="../../../../category/arcgis-enterprise/">ArcGIS Enterprise</a>, 
+                              <a href="../../../../category/arcgis-online/">ArcGIS Online</a>, 
+                              <a href="../../../../category/teaching/">Teaching</a></span>
+                        </div>
+                      </li>
+                    
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+
+
+
+
+<h1 id="enterprise-gis">Enterprise GIS</h1>
+<p>Doing GIS at enterprise scale is different from GIS workflows performed locally. Prof. Eric Shook at the University of Minnesota invited me to talk with students in his Advanced Geocomputing class about some of these differences. This post captures the most important ideas from that discussion: scaling, team collaboration, security, services-oriented architecture, and the broad set of technical skills required for enterprise GIS.</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 0a.85.85 0 0 0-.338.07L3.144 3.765A2.73 2.73 0 0 0 1.5 6.27v13.252l10.162 4.408a.85.85 0 0 0 .676 0l8.518-3.696A2.73 2.73 0 0 0 22.5 17.73V4.478L12.338.07A.85.85 0 0 0 12 0m0 4.837a7.537 7.537 0 1 1 0 15.075 7.537 7.537 0 0 1 0-15.075m-.35 1.389c-.897-.023-2.328.24-3.747 1.614.35.555.646.978.49 1.418-.23.655-.513.514-1.07.995-.396.341.206 1.013-.313 1.306-.52.293-1.213.663-.95 1.175.265.512 1.47.83 1.96 1.075.49.246.928.707.607 1.238-.314.519-.537 1.13-.601 1.609A5.94 5.94 0 0 0 12 18.175c3.293 0 5.818-2.71 5.962-6 .04-.926-.94-.94-1.534-.94 0 0 .34.923.018 1.436s-.85.762-.835 1.377c.015.616-.937 1.597-1.26 1.949-.322.351-.923.747-1.128-.06-.205-.805-.126-1.477.109-2.048.234-.572-.218-.748-.921-.762s-1.08-.108-1.187-1.193c-.088-.894 1.243-1.844 1.815-1.844.334 0 1.454.22 1.507-.34.08-.86-.82-1.042-1.04-1.602-.218-.56 1.48-1.54-1.506-1.898a4 4 0 0 0-.35-.024"/></svg></span>
+<span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="m48 195.8 209.2 86.1c9.8 4 20.2 6.1 30.8 6.1s21-2.1 30.8-6.1l242.4-99.8c9-3.7 14.8-12.4 14.8-22.1s-5.8-18.4-14.8-22.1L318.8 38.1c-9.8-4-20.2-6.1-30.8-6.1s-21 2.1-30.8 6.1L14.8 137.9C5.8 141.6 0 150.3 0 160v296c0 13.3 10.7 24 24 24s24-10.7 24-24zm48 71.7V384c0 53 86 96 192 96s192-43 192-96V267.4l-142.9 58.9c-15.6 6.4-32.2 9.7-49.1 9.7s-33.5-3.3-49.1-9.7L96 267.4z"/></svg></span></p>
+<!-- more -->
+
+<p>Enterprise GIS means working with more datasets, larger datasets, more users, greater diversity of user needs, and more complex systems to manage data and users. You need a different set of tools to deal with the different challenges that working at enterprise scale presents.</p>
+<h2 id="some-solutions-stop-working">Some solutions stop working</h2>
+<p>You have probably had an experience where you attempt to join two tables in ArcGIS Pro and you get a warning that at least one of the fields you are joining on is not indexed. If you're anything like me, you created the join without making other changes, and everything probably went fine. So why the warning? With relatively small datasets, it doesn't matter that the field isn't indexed. With large datasets, however, the performance benefits of indexing can be massive. </p>
+<p>Computer scientists have a notation called "Big O" to describe how processes get slower as the input size increases.</p>
+<p><img alt="Graph of runtime vs input size for different time complexities" src="../../../../images/big_o.png" /></p>
+<ul>
+<li>O(1) processes always take the same amount of time, no matter how big the input is. Accessing a value in a Python dictionary by key is O(1).</li>
+<li>O(log n) processes scale with the log of the input size. Querying a table on an indexed field is O(log n).</li>
+<li>O(n) processes scale linearly with the size of the input. Joining tables on indexed fields or querying a table on a non-indexed field is O(n).</li>
+<li>O(n log n) processes scale with the input size multiplied by the log of the input size. Joining tables on non-indexed fields is O(n log n)</li>
+<li>O(n<sup>2</sup>) processes scale quadratically. Nested loops are O(n<sup>2</sup>).</li>
+<li>O(2<sup>n</sup>) processes scale exponentially. Exact solutions for optimal grouping of polygons into territories are O(2<sup>n</sup>).</li>
+<li>O(n!) processes scale factorially. Exact solutions to network routing problems are O(n!).</li>
+</ul>
+<p>Ned Batchelder's <a href="https://www.youtube.com/watch?v=duvZ-2UK0fc">PyCon 2018 talk</a> gives a good explanation of Big O if you want to know more. The important idea is that past a certain point, these processes are qualitatively, not just quantitatively, different from each other. Consequently, solutions at enterprise scale often need to be qualitatively different from solutions that work well with smaller input sizes. </p>
+<h2 id="people-dont-scale">People don't scale</h2>
+<p>In order to work effectively at enterprise scale, you need to build strong relationships with the other people in your organization. But that can be difficult because of the way relationships scale. Two people have one relationship. Three people have four relationships (each bilateral relationship and the group dynamic of all three people). Four people have 11 relationships. It turns out that relationships scale O(2<sup>n</sup>), i.e. badly.</p>
+<p>All human systems must deal with the poor scaling of relationships. This is why hierarchy, bureaucracy, and siloing exist - to reduce the number of relationships that are required for an organization to operate. At some point in your career, you will probably think "if I could just get 10 minutes with the director/CEO/governor, we could get this problem solved." In small organizations, that's possible. In large organizations, it's a fantasy that you have to let go of. </p>
+<h2 id="agreement-is-the-bottleneck">Agreement is the bottleneck</h2>
+<p>When you are working alone or in a small group, the main barrier to success is implementation - it's hard to make the thing you're trying to make. At enterprise scale, the bigger barrier is getting people to agree on what you should be trying to make. There are easily two hours of talking about what you should do for every one hour of doing it. </p>
+<p>The only thing worse than all that talking is not doing the talking. In that case, you are likely to find that the thing you built is not the thing you need. One way or another, you'll need to have the conversation and get everyone to agree on a shared goal.</p>
+<p>Commitment to a shared goal is hard because people disagree. That means you need a method of productive disagreement. If somebody proposes something that seems like a bad idea, you need to be able to raise the concern or else you risk shipping poor quality output. If the group keeps arguing in circles without arriving at an agreement, you don't ship anything. </p>
+<p>One common mode of unproductive disagreement is to argue about things that aren't important. This is commonly called "bike-shedding", because it's the equivalent of arguing about the color of a bike shed at a nuclear power plant instead of arguing about the reactor design. Recognize and interrupt bike-shedding when you see it to help bring the conversation back to topics that actually matter.</p>
+<p>Unfortunately, there aren't many strong rules for what a system of productive disagreement might look like. The best option depends heavily on the culture of the organization and the nature of the relationships you have with the people you're disagreeing with. It will probably take several iterations to arrive at something that works. And if the group changes, like a new hire comes on board, you will likely have to tweak whatever system you have.</p>
+<p>For my current team, our method of productive disagreement is to build prototypes without much discussion ahead of time. People react to the prototype and suggest changes. Sometimes those changes involve throwing the entire prototype away and starting from scratch with a new approach. This is good for us because we are otherwise prone to bike-shedding. The prototype becomes a psychological anchor for unimportant details and it's easier to let go of those arguments and focus on what's important. This approach requires that people building prototypes are open to critical feedback and willing to make changes instead of getting invested in their original choices. Viewing feedback as a gift is something most people are quite bad at, but happens to be a strength of my current team.</p>
+<p>Regardless of what you eventually create, you should think explicitly about how to work through disagreements. Mismatched expectations due to everyone relying on their own separate implicit assumptions is a major source of group disfunction.</p>
+<h2 id="security-matters-more">Security matters more</h2>
+<p>A common disagreement is about security trade-offs. The most secure system is one that's disconnected from the internet, turned off, and encased in concrete behind armed guards. The most useable system is one where you have root access to everything without needing to authenticate. These are both horrible situations, which is why security is almost always about trade-offs with usability.</p>
+<p>At enterprise scale, the balance tips more in favor of security and less in favor of usability. Enterprise scale GIS has more users, which increases the probability some of them are malicious. And sufficiently advanced incompetence is indistinguishable from malice. The large pool of users, and especially their data, are a valuable resource. That makes the system an attractive target for attackers and creates significant downside risk if the organization loses access to it. In addition, the greater complexity of the systems required for enterprise scale GIS creates a larger attack surface - there are more ways for attackers to infiltrate the system. </p>
+<p>These challenges mean that IT is going to ask you do things in the name of security that make your job harder. Feel free to grumble under your breath about that, but you still need to do it. </p>
+<h2 id="most-data-should-be-shared-as-services">Most data should be shared as services</h2>
+<p>At small scales, sharing data usually takes one of two forms - making copies or giving all users access to a shared resource, like a database. This doesn't work at enterprise scale. Copies are hard to control from a data security perspective. It's also a nightmare to reconcile edits made across multiple copies. Granting direct database access to hundreds or thousands of users is begging to be a victim of a data breach.</p>
+<p>Instead, you should make most enterprise GIS data available as web services. A single database exposed by a service prevents the need to copy data. Because the service controls how the underlying data can be accessed, you reduce the probability of a data breach. Web services are also typically accessed from a URL, which means anybody with a browser can use them. You don't need a powerful workstation with sophisticated desktop GIS software because you can interact with a service from something as simple as a phone. </p>
+<p>In order to expose GIS resources as services, you are going to need some kind of software solution. Popular open source options are MapServer and GeoServer. In the Esri ecosystem, working with services means ArcGIS Enterprise and ArcGIS Online.</p>
+<h2 id="you-need-a-broader-set-of-technical-skills">You need a broader set of technical skills</h2>
+<p>Effectively deploying and maintaining software solutions for web GIS services is going to require technical skills that aren't often considered "GIS" skills. For example, you need to have a decent understanding of the IT domain:</p>
+<ul>
+<li>Networking concepts like IP addresses, ports, proxies, and routing</li>
+<li>Security concepts like firewalls, TLS certificates, and authentication models</li>
+<li>Hardware details like the differences between CPU, RAM, and disk</li>
+<li>Architectural patterns like high-availability and workload separation</li>
+<li>Considerations for cloud vs on-premises computing</li>
+</ul>
+<p>You will also need to know how you can mitigate the fact that a services-oriented architecture will generally be much slower than working with local data. You will need to make database queries faster by reducing the amount of data to be queried and indexing commonly-queried fields. You need to know how to implement various caching strategies to serve up data without having to query the database at all.</p>
+<p>Lastly, you will need to create automation solutions to reduce your workload. As you are growing your code-writing skills, it's important to keep in mind that in enterprise GIS you are much more likely to write code to move 10,000 files from one place to another than you are to write code to build a convolutional neural network. In terms of useful languages, Python is a great choice because it is well integrated with many different types of systems. But you will probably also need to learn at least some PowerShell if you're working in Windows and Bash if you're working in Linux. These are the languages that unlock the power of the command line, which you should develop some degree of comfort with.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>The bigger scale of enterprise GIS doesn't just mean more, it means different. You can't do enterprise GIS by just having everybody do the same things you do when you're working alone at the desktop. Everything else follows from that:</p>
+<ul>
+<li>Choose algorithms that scale well</li>
+<li>Understand your organization's bureaucracy and hierarchy</li>
+<li>Disagree productively</li>
+<li>Make security a priority</li>
+<li>Provide data as web services</li>
+<li>Develop technical skills beyond traditional GIS methods</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../..", "features": ["navigation.expand", "search.suggest"], "search": "../../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
