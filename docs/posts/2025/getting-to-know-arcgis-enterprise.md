@@ -8,7 +8,7 @@ categories:
 
 # Getting to Know ArcGIS Enterprise
 
-This the the first book published by Esri Press on ArcGIS Enterprise, which I co-authored with Jon Emch and Diana Muresan. It contains a mix of conceptual content and hands-on exercises for people learning to be ArcGIS Enterprise administrators.
+This is the first book published by Esri Press on ArcGIS Enterprise, which I co-authored with Jon Emch and Diana Muresan. It contains a mix of conceptual content and hands-on exercises for people learning to be ArcGIS Enterprise administrators.
 
 :simple-arcgis:
 :fontawesome-solid-graduation-cap:
